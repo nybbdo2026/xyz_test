@@ -1491,10 +1491,11 @@ const preload = {
    'pretest_img/pretest_icecube.png',
    'pretest_img/pretest_ocean.png',
    'pretest_img/pretest_clock.png',
-   'img/Disnep+.png',
-   'img/Globoplay.png',
-   'img/Netflix.png',
-   'img/Prime_video.png'
+   'img/BMW.png',
+   'img/Ducati.png',
+   'img/Honda.png',
+   'img/Kawasaki.png',
+   'img/Suzuki.png'
   ]
 }
 
