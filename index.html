@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MIAT Test</title>
+    <script src="https://unpkg.com/jspsych@7.3.0"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-button-response"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-preload"></script>
+    <link href="https://unpkg.com/jspsych@7.3.0/css/jspsych.css" rel="stylesheet" type="text/css" >
+
+    <!-- Firebase App (always required) -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <!-- Firebase Realtime Database -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+    <script>
+      // —– YOUR FIREBASE CONFIGURATION —–
+      const firebaseConfig = {
+          apiKey: "AIzaSyD6GYKtv45zAVCj9dByBhFvPWF1pBHnVEI",
+          authDomain: "implicit-motivation-project.firebaseapp.com",
+          projectId: "implicit-motivation-project",
+          storageBucket: "implicit-motivation-project.firebasestorage.app",
+          messagingSenderId: "770309820636",
+          appId: "1:770309820636:web:b49543876b940f9cdda419",
+          measurementId: "G-7RMJ5SV1JM"
+        };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      // Make the RTDB reference available globally
+      const database = firebase.database();
+    </script>
+    <style>
+/* Mobile: align two buttons in a row with spacing */
+.jspsych-html-button-response-btngroup {
+  display: flex !important;
+  justify-content: center;
+  gap: 5vw;
+}
+</style>
+  </head>
+
+  </head>
+  <body></body>
+
+  <script src="miat_config.js"></script>
+  <script src="experiment.js"></script>
+  <!-- <script src="miat_config_Volvo.js"></script> -->
+</html>
+
