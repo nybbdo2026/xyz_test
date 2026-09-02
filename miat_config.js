@@ -2,7 +2,8 @@ const brands = [
     { name: "BMW", img: "img/BMW.png" },
     { name: "Ducati", img: "img/Ducati.png" }, 
     { name: "Honda", img:"img/Honda.png" }, 
-    { name: "Suzuki", img:"img/Suzuki.png" }
+    { name: "Suzuki", img:"img/Suzuki.png" },
+    { name: "Kawasaki", img:"img/Kawasaki.png" }
   ];
 
 const category = "Motor Bikes"
